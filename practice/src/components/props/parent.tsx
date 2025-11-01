@@ -1,9 +1,14 @@
+import React from "react";
 import Child from "./Childs"
+import { themeContextApi } from "../../contexts/theme.context";
 
 export default function Parent(){
+    const theme=React.useContext(themeContextApi)
+    console.log("Parent Theme:", theme?.theme);
      function handleClick(data:string) {
         console.log("Data from Child:", data);
-        alert("Button clicked in Child Component!");
+        theme?.setTheme(theme.theme==="dark"?"light":"dark")
+        // alert("Button clicked in Child Component!");
     }
     const classes = "border p-4 mb-4"
     return (
