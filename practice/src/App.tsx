@@ -1,3 +1,11 @@
+import Parent from "./components/props/parent";
+
 export default function App() {
-  return <div className="h-2 text-red-500">Hello, World!</div>;
+
+
+  return <div className="my-2 mx-2">
+    
+   <Parent/>
+    
+    </div>;
 }
