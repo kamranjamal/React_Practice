@@ -17,3 +17,8 @@ export interface DataInterface {
 
     
 }
+export interface StatusesInterface{
+    status:string;
+    amount:number;
+    duration:string;
+}
