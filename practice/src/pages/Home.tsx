@@ -3,6 +3,7 @@ import Parent from "../components/props/parent";
 import Ref from "../components/refs/Ref";
 import States from "../components/useEffectuseState/States";
 import UserReducer from "../components/useReducer/userreducer";
+import UseCallback from "../hooks/useCallback";
 
 export default function Home() {
 
@@ -23,5 +24,7 @@ export default function Home() {
         <UserReducer></UserReducer>
         <hr className="my-3" />
         <Ref />
+        <hr className="my-3"/>
+        <UseCallback/>
     </div>;
 }
