@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Routes,Route } from 'react-router'
 import AboutPage from './about'
 import ContactPage from './Contact'
@@ -7,6 +7,7 @@ import Dashboard from './Dashboard'
 import Settings from './Settings'
 import Members from './Members'
 import Rewards from './Rewards'
+import ProductPage from './products'
 
 
 function RoutesPage() {
@@ -20,6 +21,7 @@ function RoutesPage() {
             <Route path='rewards' element={<Rewards/>}></Route>
             <Route path='settings' element={<Settings/>}></Route>
         </Route>
+        <Route path='/products' element={<ProductPage/>}></Route>
     </Routes>
   )
 }

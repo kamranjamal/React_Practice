@@ -14,6 +14,7 @@ export default function Home() {
                 <li><Link to={'/contact'}>Contact</Link></li>
                 <li><Link to={'/about'}>About</Link></li>
                 <li><Link to={'/dashboard'}>Dashboard</Link></li>
+                <li><Link to={'/products'}>Products</Link></li>
             </ul>
 
         </nav>

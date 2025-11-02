@@ -1,4 +1,4 @@
-import React from 'react'
+
 import RoutesPage from './pages/Routes'
 
 function App() {
