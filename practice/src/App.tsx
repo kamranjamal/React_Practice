@@ -1,16 +1,10 @@
-import Parent from "./components/props/parent";
-import Ref from "./components/refs/Ref";
-import States from "./components/useEffectuseState/States";
-import UserReducer from "./components/useReducer/userreducer";
+import React from 'react'
+import RoutesPage from './pages/Routes'
 
-export default function App() {
-
-
-  return <div className="my-2 mx-2"> 
-   <Parent/> 
-   <States/>
-   <UserReducer></UserReducer>
-   <hr className="my-3" />
-   <Ref/>
-    </div>;
+function App() {
+  return (
+    <RoutesPage/>
+  )
 }
+
+export default App
